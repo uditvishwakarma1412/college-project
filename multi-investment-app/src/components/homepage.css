@@ -1,0 +1,66 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paradiv{
+    width: 650px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+}
+.imgdiv{
+    width: 550px;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    margin-right: 60px;
+}
+.title1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: serif;
+    margin-top: 15px;
+}
+.paramain{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+.startforfreebtn{
+    margin: 0;
+    width: 280px;
+    height: 50px;
+    border: unset;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: #73c772;
+    color:white;
+    margin-top: 30px;
+    transition: all 0.4s ease;
+    text-align: center;
+}
+.imgmain{
+    margin: 0;
+    padding: 0;
+    height: 550px;
+    width: 550px;
+}
+.startforfreebtn:hover{
+    background-color: #4b944a;
+    cursor: pointer;
+}
+a{
+    text-decoration: unset;
+}

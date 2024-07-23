@@ -1,0 +1,88 @@
+.container2{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.myform1{
+    position: relative;
+}
+.registerdiv{
+    width: 310px;
+    height: 445px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.name{
+    height: 32px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.birthdate{
+    height: 32px;
+    width: 86%;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.phone{
+    height: 32px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.email1{
+    height: 32px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.password1{
+    height: 32px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.registerbtn{
+    height: 35px;
+    width: 88%;
+    margin-top: 20px;
+    margin-left: 18px;
+    border: unset;
+    background-color: #5fb65d;
+    border-radius: 3px;
+    color: white;
+    font-size: medium;
+    transition: all 0.4s ease;
+}
+.registerbtn:hover{
+    cursor: pointer;
+    background-color: #4b944a;
+}
+.registertext{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    cursor: default;
+}
+.alreadyhaveacc{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    position: absolute;
+    right: 18px;
+    bottom: 15px;
+    text-transform: capitalize;
+    cursor: default;
+}
+.alreadyhaveacctoggle{
+    cursor: pointer;
+    color: #006eff;
+}
